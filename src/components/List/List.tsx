@@ -42,9 +42,9 @@ const List = ({offset}: IList) => {
     }
 
     return (
-        <div className='list'>
+        <main className='list'>
             {renderCards(loadedCountries)}
-        </div>
+        </main>
     )
 }
 

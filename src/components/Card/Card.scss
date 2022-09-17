@@ -1,0 +1,49 @@
+@use '../../index' as *;
+//TODO: fix this import
+
+.card {
+  border-radius: .5rem;
+  max-width: 21.875em;
+  display: flex;
+  flex-direction: column;
+  margin: 1.8rem 0;
+  background: var(--white);
+  box-shadow: 1px 1px 10px rgba(211, 211, 211, 0.49);
+
+  img {
+    border-radius: .5rem .5rem 0 0;
+  }
+
+  &__content {
+    padding: 2rem 2rem 3.8rem;
+    display: flex;
+    flex-direction: column;
+
+    div {
+      display: flex;
+      align-items: center;
+      margin-bottom: .4rem;
+    }
+
+    h2 {
+      font-weight: map-get($font-weights, bold);
+      margin-top: 0;
+    }
+
+    h5 {
+      font-size: 1.1rem;
+      margin: 0 5px 0 0;
+      font-weight: map-get($font-weights, regular);
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin: 0;
+      font-weight: map-get($font-weights, thin);
+    }
+  }
+
+  &__title {
+
+  }
+}
