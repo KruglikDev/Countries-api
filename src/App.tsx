@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className="App">
       <List offset={offset}/>
-      <button onClick={() => setOffset(offset+1)}></button>
+      <button onClick={() => setOffset(offset+10)}></button>
     </div>
   );
 }
