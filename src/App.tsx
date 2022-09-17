@@ -1,5 +1,5 @@
-import React from 'react';
 import { Counter } from './features/counter/Counter';
+import List from "./components/List/List";
 
 function App() {
   return (
@@ -48,6 +48,7 @@ function App() {
           </a>
         </span>
       </header>
+      <List />
     </div>
   );
 }
