@@ -1,7 +1,7 @@
-import 'Card.scss';
+import './Card.scss';
 
-interface ICard {
-    image: string,
+export interface ICard {
+    flag: string,
     name: string,
     population: number,
     region: string,
@@ -12,7 +12,7 @@ const Card = (props: ICard) => {
     return (
         <div className='card'>
             <img
-                src={props.image}
+                src={props.flag}
                 alt={props.name}
             />
             <h2 className='card__title'>{props.name}</h2>
